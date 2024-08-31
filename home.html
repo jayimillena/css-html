@@ -6,21 +6,20 @@
     <title>Refreshing HTML with CSS</title>
     <style>
         .parent {
-            display: flex;
+            display: inline-flex;
         }            
 
         .child {
             background-color: dodgerblue;
             color: whitesmoke;
-            height: 200px;
+            flex-direction: row;
+            height: 250px;
             width: 200px;
         }
     </style>
 </head>
 <body>
-    <div>
-        <p>Some text here</p>
-    </div>
+    Some text here
     <div class="parent">
         <div class="child">
             <p>1</p>
